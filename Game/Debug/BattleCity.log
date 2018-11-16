@@ -1,0 +1,33 @@
+﻿生成启动时间为 2018/11/16 20:21:40。
+     1>项目“D:\dataBank\c++_SourceCode_Set\c++_code\BattleCity\BattleCity\Game\BattleCity.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Input.cpp Plane.cpp Sound.cpp Sprite.cpp wavread.cpp
+         wavread.cpp
+         Sprite.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Sound.cpp
+         Plane.cpp
+     1>d:\databank\c++_sourcecode_set\c++_code\battlecity\battlecity\game\plane.cpp(32): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+         Input.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\databank\c++_sourcecode_set\c++_code\battlecity\battlecity\game\input.cpp(35): error C3861: “DirectInputCreate”:  找不到标识符
+     1>d:\databank\c++_sourcecode_set\c++_code\battlecity\battlecity\game\input.cpp(58): error C2065: “DIDEVTYPE_JOYSTICK”: 未声明的标识符
+         Game.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\databank\c++_sourcecode_set\c++_code\battlecity\battlecity\game\game.cpp(38): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\databank\c++_sourcecode_set\c++_code\battlecity\battlecity\game\game.cpp(983): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\databank\c++_sourcecode_set\c++_code\battlecity\battlecity\game\game.cpp(1076): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\databank\c++_sourcecode_set\c++_code\battlecity\battlecity\game\game.cpp(1466): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\databank\c++_sourcecode_set\c++_code\battlecity\battlecity\game\game.cpp(1470): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         正在生成代码...
+     1>已完成生成项目“D:\dataBank\c++_SourceCode_Set\c++_code\BattleCity\BattleCity\Game\BattleCity.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.18
